@@ -1211,7 +1211,6 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1741,6 +1740,11 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color primary_100
+color primary_200
+color primary_600
+color primary_700
+color primary_900
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1749,9 +1753,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color purple_200
-color purple_500
-color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
@@ -1765,14 +1766,11 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
-color teal_200
-color teal_700
 color test_color
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
-color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2604,6 +2602,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btContinue
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2684,6 +2683,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etAccountHolderId
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2944,6 +2944,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tilAccountHolderId
 id time
 id title
 id titleDividerNoCustom
@@ -2960,6 +2961,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvWelcome
 id unchecked
 id uniform
 id unlabeled
@@ -3293,6 +3295,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string txt_Continue
+string txt_wellcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3787,7 +3791,7 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
-style Theme_Banklineapp
+style Theme_AppTheme
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light

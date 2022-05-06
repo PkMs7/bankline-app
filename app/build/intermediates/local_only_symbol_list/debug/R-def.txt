@@ -1,17 +1,21 @@
 R_DEF: Internal format may change without notice
 local
-color black
-color purple_200
-color purple_500
-color purple_700
-color teal_200
-color teal_700
-color white
+color primary_100
+color primary_200
+color primary_600
+color primary_700
+color primary_900
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btContinue
+id etAccountHolderId
+id tilAccountHolderId
+id tvWelcome
 layout activity_bank_statement
 layout activity_wellcome
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-style Theme.Banklineapp
+string txt_Continue
+string txt_wellcome
+style Theme.AppTheme

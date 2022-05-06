@@ -1,8 +1,9 @@
-#Thu May 05 22:42:10 BRT 2022
+#Fri May 06 00:43:53 BRT 2022
 path.4=7/classes.dex
 path.3=5/classes.dex
 path.2=2/classes.dex
 path.1=0/classes.dex
+path.5=6/classes.dex
 path.0=classes.dex
 base.4=C\:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 base.3=C\:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
@@ -13,4 +14,6 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.5=classes6.dex
 renamed.4=classes5.dex
+base.5=C\:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
