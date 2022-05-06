@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Banklineapp">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.statement.BankStatementActivity"
+            android:parentActivityName=".ui.wellcome.WellcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.wellcome.WellcomeActivity"
+                        android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
