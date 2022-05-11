@@ -961,6 +961,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -2455,6 +2456,8 @@ drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_money_in
+drawable ic_money_out
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -2731,6 +2734,7 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
+id ivIcon
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2849,6 +2853,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvBankStatement
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2898,6 +2903,7 @@ id square
 id src_atop
 id src_in
 id src_over
+id srlBankStatement
 id standard
 id start
 id startHorizontal
@@ -2961,6 +2967,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvDatetime
+id tvDescription
+id tvValue
 id tvWelcome
 id unchecked
 id uniform
@@ -3071,6 +3080,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bank_statement
 layout activity_wellcome
+layout bank_statement_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3295,6 +3305,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string txt_Account_Holder_Id
 string txt_Continue
 string txt_wellcome
 style AlertDialog_AppCompat
@@ -4445,6 +4456,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

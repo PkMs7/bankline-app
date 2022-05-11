@@ -6,5 +6,9 @@
     {
         "merged": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wellcome.xml",
         "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\layout\\activity_wellcome.xml"
+    },
+    {
+        "merged": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bank_statement_item.xml",
+        "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\layout\\bank_statement_item.xml"
     }
 ]

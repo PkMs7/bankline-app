@@ -10,71 +10,77 @@
 9        android:targetSdkVersion="32" />
 9-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:5:5-25:19
-12        android:allowBackup="true"
-12-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\5569570771428b265868d1805759cc49\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.AppTheme" >
-20-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:11:9-46
-21        <activity
-21-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:12:9-15:40
-22            android:name="me.dio.bankline_app.ui.statement.BankStatementActivity"
-22-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:13:13-63
-23            android:exported="false"
-23-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:15:13-37
-24            android:parentActivityName="me.dio.bankline_app.ui.wellcome.WellcomeActivity" />
-24-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:14:13-71
-25        <activity
-25-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:16:9-24:20
-26            android:name="me.dio.bankline_app.ui.wellcome.WellcomeActivity"
-26-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:17:13-57
-27            android:exported="true" >
-27-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:18:25-48
-28            <intent-filter>
-28-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <provider
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-36            android:name="androidx.startup.InitializationProvider"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-37            android:authorities="me.dio.bankline_app.androidx-startup"
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-38            android:exported="false" >
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-39            <meta-data
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-41                android:value="androidx.startup" />
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:7:5-28:19
+14        android:allowBackup="true"
+14-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\5569570771428b265868d1805759cc49\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AppTheme"
+22-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:14:9-46
+23        android:usesCleartextTraffic="true" >
+23-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:8:9-44
+24        <activity
+24-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:15:9-18:40
+25            android:name="me.dio.bankline_app.ui.statement.BankStatementActivity"
+25-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:16:13-63
+26            android:exported="false"
+26-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:18:13-37
+27            android:parentActivityName="me.dio.bankline_app.ui.wellcome.WellcomeActivity" />
+27-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:17:13-71
+28        <activity
+28-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:19:9-27:20
+29            android:name="me.dio.bankline_app.ui.wellcome.WellcomeActivity"
+29-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:20:13-57
+30            android:exported="true" >
+30-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:21:25-48
+31            <intent-filter>
+31-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\estudos\dio\santander-dev-week\bankline-app\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+40            android:authorities="me.dio.bankline_app.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 42            <meta-data
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 44                android:value="androidx.startup" />
-44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-45        </provider>
-46    </application>
-47
-48</manifest>
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Patrick Marques\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>

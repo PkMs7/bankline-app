@@ -20,6 +20,18 @@
         "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_money_out.xml.flat",
+        "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\drawable\\ic_money_out.xml"
+    },
+    {
+        "merged": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_money_in.xml.flat",
+        "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\drawable\\ic_money_in.xml"
+    },
+    {
+        "merged": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\merged_res\\debug\\layout_bank_statement_item.xml.flat",
+        "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\layout\\bank_statement_item.xml"
+    },
+    {
         "merged": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\estudos\\dio\\santander-dev-week\\bankline-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
